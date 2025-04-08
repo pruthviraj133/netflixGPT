@@ -2,6 +2,9 @@
 
 - Vite bundler chosen
 - Tailwind CSS configured
+- Header component
+- Login form
+- Sign up form
 - 
 
 # Features
