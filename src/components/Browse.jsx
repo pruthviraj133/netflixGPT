@@ -1,16 +1,24 @@
-import React from 'react'
+import useNowPlayingMovies from '../hooks/useNowPlayingMovies'
 import Header from './Header'
+import MainContainer from './MainContainer';
+import SecondaryContainer from './SecondaryContainer';
 
 const Browse = () => {
+  useNowPlayingMovies();
+
   return (
     <div >
-      <Header/>
-      <div className='h-screen flex justify-center items-center flex-col'>
-        Namaste, Browse Page
-        <div className='h-21 w-21 bg-amber-500 hover:bg-green-400 transition'>
-
-        </div>
-      </div>
+      <Header />
+      <MainContainer />
+      <SecondaryContainer />
+      {/*
+        Main Container
+          - Video Background
+          - Video Title
+        Secondary Container
+          - Movie list * n
+            - cards * n
+       */}
     </div>
   )
 }

@@ -28,3 +28,4 @@ build
 .firebase
 
 .env.development
+.env
