@@ -35,6 +35,10 @@
 - TMDB Image CDN URL Added
 - Added styling to browse page
 - usePopularMovies, useTopRatedMovies, useUpcomingMovies custom hooks created
+- GPT Search Page
+- GPT Search Bar
+- Multi-language feature in GPT Search Bar
+
 
 # Features
 
