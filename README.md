@@ -38,7 +38,14 @@
 - GPT Search Page
 - GPT Search Bar
 - Multi-language feature in GPT Search Bar
-
+- GPT OpenAI API Key - tried, yet got groq API key
+- GPT search API call
+- Fetch GPT movie suggestions from TMDB
+- Created GPTslice added data
+- reused MovieList component to make movie suggestion container
+- Memoization
+- Adding .env file to gitignore
+- Made site responsive
 
 # Features
 
@@ -56,3 +63,6 @@
     - Search Bar 
     - Movie Suggestions
 
+# If running locally
+
+get your own TMDB and groq API keys

@@ -6,7 +6,7 @@ export const API_OPTIONS = {
   method: 'GET',
   headers: {
     accept: 'application/json',
-    Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjNDMwOTJmNGQyY2FmZmIwYjFhNGMzN2ViNzA1YzlhYSIsIm5iZiI6MTc1ODcxNDQ0NS45MDcsInN1YiI6IjY4ZDNkYTRkYzYyOWIyY2E1Mzg5N2Y1MCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.jQmH3YkvmIjJs6vVJQkQS1egVu1bTfbbLpteQm2fNMA'
+    Authorization: 'Bearer '+ import.meta.env.VITE_TMDB_KEY
   }
 };
 
@@ -19,3 +19,5 @@ export const SUPPORTED_LANGUAGES = [
   {identifier: "hi", name: "Hindi"},
   {identifier: "es", name: "Spanish"},
 ]
+
+export const OPENAI_API_KEY=import.meta.env.VITE_APP_GROQ_API_KEY
